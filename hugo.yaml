@@ -19,20 +19,21 @@ markup:
 
 enableInlineShortcodes: true
 
-defaultContentLanguage: en
+defaultContentLanguage: zh-cn
 languages:
-  en:
-    languageName: English
-    weight: 1
   zh-cn:
     languageName: 简体中文
+    weight: 1
+  en:
+    languageName: English
     weight: 2
+  
 
 menu:
   main:
-    - identifier: documentation
-      name: 📚 Documentation
-      pageRef: /docs
+    - identifier: knowledge  
+      name: 📚 Knowledge  
+      pageRef: /knowledge
       weight: 1
     - identifier: blog
       name: 📝 Blog
@@ -42,24 +43,31 @@ menu:
       name: 💭 Essay
       pageRef: /essay
       weight: 3
-    - identifier: about
-      name: 👨🏻‍🎓 About
-      pageRef: /about
-      weight: 4
     - name: Search
-      weight: 5
+      weight: 4
       params:
         type: search
     - name: GitHub
-      weight: 6
-      url: "https://github.com/wylu1037"
+      weight: 5
+      url: "https://github.com/HanbgCN"
       params:
         icon: github
-    - name: Website
-      weight: 7
-      url: "https://wylu.pages.dev"
+    - name: Twitter
+      weight: 6
+      url: "https://twitter.com/bghan20"
       params:
-        icon: globe-alt
+        icon: x-twitter
+  sidebar:
+    - name: More
+      params:
+       type: separator
+      weight: 1
+    - name: "About"
+      pageRef: "/about"
+      weight: 2
+    - name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 3
 
 params:
   blog:
@@ -96,3 +104,11 @@ params:
       link: /
       width: 40
       height: 20
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+      repo: <repository>
+      repoId: <repository id>
+      category: <category>
+      categoryId: <category id>
