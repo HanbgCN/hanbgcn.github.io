@@ -1,4 +1,4 @@
-baseURL: https://hanbgcn.github.io
+baseURL: https://HanbgCN.github.io
 languageCode: en-us
 title: Hamburger
 paginate: 50 # Number of item to show in the changelog section before pagination
