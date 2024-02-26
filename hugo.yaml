@@ -5,7 +5,7 @@ paginate: 50 # Number of item to show in the changelog section before pagination
 
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/HanbgCN/hextra
 outputs:
   home: [HTML]
   page: [HTML]

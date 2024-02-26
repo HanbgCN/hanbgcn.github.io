@@ -1,11 +1,11 @@
 ---
-title: Eassy
-width: normal
+title: 
+draft: false
+type: docs
+weight: 2
 ---
 
-<p align="center">Additions and reacord to the blog website.  </p>
-
-{{< hextra/hero-badge link="index.xml" style="margin:20px 0 0 0;">}}
-  Feed
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
+<div class="flex justify-end">
+  {{< weather-sun >}}
+</div>
+<font style="font-size:22px;font-weight:300">学而不思则罔，思而不学则殆</font>

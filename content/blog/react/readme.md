@@ -1,9 +1,9 @@
 ---
-linkTitle: Nestjs
-title: Nestjs Topics
+linkTitle: React
+title: Advanced Topics
+prev: /docs/ruby
 next: /docs/rust
 type: docs
-weight: 5
 ---
 
 This section covers some advanced topics of the theme.

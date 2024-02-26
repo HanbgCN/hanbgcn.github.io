@@ -1,9 +1,9 @@
 ---
-linkTitle: Nestjs
-title: Nestjs Topics
+linkTitle: Vue
+title: Vue Topics
 next: /docs/rust
 type: docs
-weight: 5
+weight: 2 
 ---
 
 This section covers some advanced topics of the theme.
